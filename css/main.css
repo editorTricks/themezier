@@ -519,7 +519,7 @@ li {
 .themeProductStickBottom {
   position: relative;
   z-index: -1;
-  margin-top: -161px;
+  margin-top: -160px;
   -webkit-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
   -ms-transition: all 300ms ease;
