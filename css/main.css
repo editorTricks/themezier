@@ -706,3 +706,34 @@ button.accordion.active:after {
 .answer p:last-child {
   margin:0 auto;
 }
+
+
+
+.question { 
+  padding:20px 5px;
+  box-sizing:border-box;
+  font-size:1.2em;
+  cursor:pointer;
+  border-bottom:1px solid #dddddd;
+  display: flex;
+  align-items: center;
+}
+.question:before {
+  content: "+";
+  color:@accent-color;
+  display:block;
+  margin-right:10px;
+  font-size:20px;
+}
+.question.active:before {
+  content: '-';
+  margin-right: 13.86px;
+}
+.answer {
+  display:none;
+  padding:20px;
+  line-height: 1.7;
+}
+.answer .paragraph {
+  margin-bottom:0px;
+}
