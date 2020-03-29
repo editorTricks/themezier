@@ -125,6 +125,12 @@ li {
   font-family: "Montserrat";
   text-transform: uppercase;
 }
+.desktopNav a {
+  color: #fff;
+}
+.desktopNav a:hover {
+  color: #008aff;
+}
 .navCart {
   width: 102px;
   height: 40px;
