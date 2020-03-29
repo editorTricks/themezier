@@ -640,3 +640,69 @@ li {
   -o-transition: all 300ms ease;
   transition: all 300ms ease;
 }
+/* FAQs */
+#faq {
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+button.accordion {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    font-family: inherit;
+    border: 1px solid #ddd;
+    margin-top:1em;
+}
+
+button.accordion:first-child {
+    margin-top:0;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #fff;
+}
+
+div.panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;
+}
+
+button.accordion:after {
+    content: '+';
+    font-size: 13px;
+    color: #c4c4c4;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: '-';
+}
+
+.question:first-child {
+  border-top: 1px solid #dddddd;
+}
+
+.answer {
+    padding:1em;
+    box-sizing:border-box;
+    line-height:1.1;
+}
+
+.answer p:last-child {
+  margin:0 auto;
+}
