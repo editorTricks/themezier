@@ -766,7 +766,8 @@ li {
   .header {
     position: fixed;
     top: 57px;
-    left: -210px;
+	left: 0;
+    margin-left: -210px;
     bottom: 0;
     width: 100%;
 	max-width: 210px;
@@ -779,7 +780,7 @@ li {
     transition: all 300ms ease;
   }
   .header.slide {
-    left: 0;
+    margin-left: 0px;
 	-webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
     -ms-transition: all 300ms ease;
