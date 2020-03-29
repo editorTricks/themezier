@@ -361,6 +361,12 @@ li {
   margin-bottom: 10px;
   color: #008aff;
 }
+.themeProductReviewStars {
+  margin-bottom: 10px;
+}
+.yotpo-star {
+  margin-right: 10px;
+}
 .themeProductSummary {
   font-size: 13px;
   line-height: 18px;
@@ -423,7 +429,7 @@ li {
   align-items: center;
   font-size: 13px;
   position: relative;
-  top: -110px;
+  top: -93px;
 }
 .themeProductStatsStyling {
   -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.1);
