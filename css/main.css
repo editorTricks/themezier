@@ -705,7 +705,6 @@ li {
   margin-bottom: 0px;
 }
 /* Contact Form */
-/* Contact Form */
 .form-elements {
   display: flex;
   flex-direction: column;
@@ -751,6 +750,12 @@ li {
 }
 .thankyou_message {
   display: none;
+  margin-top: 80px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #f6f7f9;
 }
 /* Tablet */
 @media screen and (max-width: 992px) {
