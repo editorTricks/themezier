@@ -25,6 +25,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 .themeProductStat .fab,
 .themeProductStat .fas,
 .themeProductStat .far {
