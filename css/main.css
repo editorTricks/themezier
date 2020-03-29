@@ -366,7 +366,7 @@ li {
   height: 17px;
 }
 .yotpo-stars {
-  margin-right: 10px;
+  margin-right: 10px!important;
 }
 .themeProductSummary {
   font-size: 13px;
