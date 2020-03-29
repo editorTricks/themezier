@@ -25,9 +25,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:900&display=swap');
-.fab,
-.fas,
-.far {
+.themeProductStat .fab,
+.themeProductStat .fas,
+.themeProductStat .far {
   display: flex!important;
   align-items: center;
   margin-right: 5px;
@@ -365,8 +365,8 @@ li {
   margin-bottom: 10px;
   height: 17px;
 }
-.yotpo-star {
-  margin-right: 10px!important;
+.yotpo-stars {
+  margin-right: 10px;
 }
 .themeProductSummary {
   font-size: 13px;
@@ -378,6 +378,14 @@ li {
   padding: 20px;
   border-radius: 40px;
   margin-bottom: 10px;
+}
+.themeProductButtons .sellfy-buy-button-custom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.themeProductButtons .fa-shopping-cart {
+  margin-left: 10px;
 }
 .themePOS {
   display: flex;
