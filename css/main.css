@@ -393,6 +393,9 @@ li {
   margin-top: 10px;
   font-size: 24px;
 }
+.themePOS  .fab {
+  margin: 0 2.5px;
+}
 .themeProductLiveDemo {
   margin-bottom: 10px;
 }
