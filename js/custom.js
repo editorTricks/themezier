@@ -49,5 +49,24 @@ jQuery(function($) {
       $(this).addClass("active");
     }
   });
+  
+  // Mobile Navigation
+  $('.hamburger').on('click', function(){
+    $('.mobileMenu, .mobileNavigation').toggleClass('slide');
+    $('.hamburger span').toggleClass('fade');
+    $('.hamburger').toggleClass('rotate');
+  });
+  
+  // Mobile Header Scroll Animation
+  $(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 1) {
+      $(".mobileHeader").addClass("scroll");
+    }
+	else {
+      $(".mobileHeader").removeClass("scroll");
+    }
+  });
 	
 });
