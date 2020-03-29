@@ -52,7 +52,7 @@ jQuery(function($) {
   
   // Mobile Navigation
   $('.hamburger').on('click', function(){
-    $('.mobileMenu, .mobileNavigation').toggleClass('slide');
+    $('.header').toggleClass('slide');
     $('.hamburger span').toggleClass('fade');
     $('.hamburger').toggleClass('rotate');
   });
