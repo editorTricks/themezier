@@ -99,7 +99,8 @@ li {
   box-sizing: border-box;
 }
 .notFixed {
-  padding-top: 60px;
+  position: relative;
+  top: 60px;
 }
 .fr_primary_button.fr_tiny {
   padding: 5px!important;
@@ -761,7 +762,7 @@ li {
 @media screen and (max-width: 992px) {
   /* Global Settings */
   .notFixed {
-    padding-top: 57px;
+    top: 57px;
   }
   /* Header */
   .header {
