@@ -36,5 +36,18 @@ jQuery(function($) {
     $("html, body").animate({ scrollTop: 0 }, "slow");
     return false;
   });
+  
+  // Accordion
+  $(".question").click(function() {
+    $(".answer").slideUp();
+    if ($(this).next().is(":visible")) {
+      $(this).next().slideUp();
+      $(this).removeClass("active");
+    } else {
+      $(this).next().slideDown();
+      $('.question').removeClass("active");
+      $(this).addClass("active");
+    }
+  });
 	
 });
