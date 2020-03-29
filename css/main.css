@@ -769,6 +769,7 @@ li {
     top: 57px;
     left: -210px;
     bottom: 0;
+	right: initial;
     width: 100%;
 	max-width: 210px;
     height: 100%;
