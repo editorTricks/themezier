@@ -910,10 +910,15 @@ li {
   /* Product Page */
   .themeProductSection {
     flex-wrap: wrap;
-  } 
-  .themeProductDescription, .themeProductStats {
+  }
+  .themeProductImage,
+  .themeProductContent {
     width: 100%;
-    text-align: center;
+	text-align: center;
+  }
+  .themeProductDescription,
+  .themeProductStats {
+    width: 100%;
   }
 }
 @media screen and (max-width: 767px) {
