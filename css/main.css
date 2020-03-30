@@ -908,6 +908,9 @@ li {
     margin-bottom: 30px;
   }
   /* Product Page */
+  .breadCrumbs {
+    margin-bottom: 0;
+  }
   .themeProductSection {
     flex-wrap: wrap;
   }
@@ -919,6 +922,10 @@ li {
   }
   .themeProductDescription {
     text-align: center;
+  }
+  .themeProductReviewStars {
+    display: flex;
+    justify-content: center;
   }
 }
 @media screen and (max-width: 767px) {
