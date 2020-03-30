@@ -932,12 +932,6 @@ li {
     width: 100%;
   }
   .theme img {
-    height: 300px;
-  }
-}
-@media screen and (max-width: 420px) {
-  /* Store Page */
-  .theme img {
-    height: 250px;
+    height: 50vw;
   }
 }
