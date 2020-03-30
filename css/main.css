@@ -912,13 +912,13 @@ li {
     flex-wrap: wrap;
   }
   .themeProductImage,
-  .themeProductContent {
-    width: 100%;
-	text-align: center;
-  }
+  .themeProductContent,
   .themeProductDescription,
-  .themeProductStats {
+  .themeProductStats  {
     width: 100%;
+  }
+  .themeProductDescription {
+    text-align: center;
   }
 }
 @media screen and (max-width: 767px) {
