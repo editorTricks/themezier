@@ -56,5 +56,15 @@ jQuery(function($) {
     $('.hamburger span').toggleClass('fade');
     $('.hamburger').toggleClass('rotate');
   });
+  
+  // Widget Search
+  $("#filterText").on("keyup", function() {
+    var key = this.value;
+    $(".widgetTitle").each(function() {
+      var $this = $(this).parent();
+      $this.toggle($(this).text().toLowerCase().indexOf(key.toLowerCase()) >= 0);
+    });
+	$(".widget").addClass("show animated fadeIn");
+  });
 	
 });
