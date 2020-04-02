@@ -57,6 +57,17 @@ jQuery(function($) {
     $('.hamburger').toggleClass('rotate');
   });
   
+  // Theme Search
+  $("#filterText").on("keyup", function() {
+   var key = this.value;
+    $(".themeName").each(function() {
+       var $this = $(this).parent().parent();
+       $this.toggle($(this).text().toLowerCase().indexOf(key.toLowerCase()) >= 0);
+    });
+	$(".theme").addClass("show animated fadeIn");
+	themeCount();
+  });
+  
   // Widget Search
   $("#filterText").on("keyup", function() {
     var key = this.value;

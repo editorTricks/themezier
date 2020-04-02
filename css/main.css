@@ -321,6 +321,22 @@ li {
 .themeDescription {
   display: none;
 }
+/* Theme Search */
+.themeSearch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+.themeSearch .fa-search {
+  right: 20px;
+  font-size: 24px;
+  position: absolute;
+}
+.themeSearch #filterText {
+  max-width: 100%;
+}
 /* Theme Product Page */
 .breadCrumbs {
   display: flex;
