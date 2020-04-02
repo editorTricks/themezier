@@ -67,6 +67,9 @@ h3 {
 h3.faq {
   margin-bottom: 10px;
 }
+h3.faqQuestionMargin {
+  margin-top: 40px;
+}
 p,
 ul li {
   font-family: "Roboto";
@@ -75,6 +78,9 @@ p.content,
 ul li {
   line-height: 28px;
   margin-bottom: 20px;
+}
+p.faqContent {
+  margin-bottom: 40px;
 }
 p.content a:hover {
   text-decoration: underline;
