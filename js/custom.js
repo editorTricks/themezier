@@ -65,7 +65,6 @@ jQuery(function($) {
        $this.toggle($(this).text().toLowerCase().indexOf(key.toLowerCase()) >= 0);
     });
 	$(".theme").addClass("show animated fadeIn");
-	themeCount();
   });
   
   // Widget Search
