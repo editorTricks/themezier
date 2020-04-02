@@ -66,5 +66,15 @@ jQuery(function($) {
     });
 	$(".widget").addClass("show animated fadeIn");
   });
+  
+  // FAQ Search
+  $("#filterText").on("keyup", function() {
+    var key = this.value;
+    $(".question").each(function() {
+      var $this = $(this);
+      $this.toggle($(this).text().toLowerCase().indexOf(key.toLowerCase()) >= 0);
+    });
+	$(".question").addClass("show animated fadeIn");
+  });
 	
 });

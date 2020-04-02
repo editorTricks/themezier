@@ -752,6 +752,18 @@ li {
   transition: all 300ms ease;
 }
 /* FAQs */
+.faqSearch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+.faqSearch .fa-search {
+  right: 43px;
+  font-size: 24px;
+  position: absolute;
+}
 .question { 
   padding: 20px 5px;
   box-sizing: border-box;
