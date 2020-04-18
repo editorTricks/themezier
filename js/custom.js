@@ -2,37 +2,38 @@ jQuery(function($) {
 	
   // Theme Categories
   $(".themeCategoryAll").on("click", function() {
+	$(".themeDescription").hide();
     $(".theme").show();	
   });
   
   $(".themeCategoryBlog").on("click", function() {
-    $(".theme").hide();
-    $(".themeBlog").show();	
+    $(".theme, .themeDescription").hide();
+    $(".themeBlog, .themeBlog").show();	
   });
   
   $(".themeCategoryBusiness").on("click", function() {
-    $(".theme").hide();
-    $(".themeBusiness").show();	
+    $(".theme, .themeDescription").hide();
+    $(".themeBusiness, .themeDescriptionBusiness").show();	
   });
   
   $(".themeCategoryEducation").on("click", function() {
-    $(".theme").hide();
-    $(".themeEducation").show();	
+    $(".theme, .themeDescription").hide();
+    $(".themeEducation, .themeEducation").show();	
   });
   
   $(".themeCategoryMagazine").on("click", function() {
-    $(".theme").hide();
-    $(".themeMagazine").show();	
+    $(".theme, .themeDescription").hide();
+    $(".themeMagazine, .themeMagazine").show();	
   });
   
   $(".themeCategoryPortfolio").on("click", function() {
-    $(".theme").hide();
-    $(".themePortfolio").show();	
+    $(".theme, .themeDescription").hide();
+    $(".themePortfolio, .themeDescriptionPortfolio").show();	
   });
   
   $(".themeCategoryProfile").on("click", function() {
-    $(".theme").hide();
-    $(".themeProfile").show();	
+    $(".theme, .themeDescription").hide();
+    $(".themeProfile, .themeDescriptionProfile").show();	
   });
 
   // Sticky Sidebar

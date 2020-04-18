@@ -364,7 +364,18 @@ li {
 .themeCategory:hover:after { 
   width: 100%;
 }
-
+/* Theme Description */
+.themeDescription {
+  display: none;
+  border-radius: 5px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  background: #f6f7f9;
+  color: #999;
+  line-height: 23px;
+  font-family: "Roboto";
+}
 /* Theme Product Page */
 .breadCrumbs {
   display: flex;
