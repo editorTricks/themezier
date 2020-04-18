@@ -1,4 +1,39 @@
 jQuery(function($) {
+	
+  // Theme Categories
+  $(".themeCategoryAll").on("click", function() {
+    $(".theme").show();	
+  });
+  
+  $(".themeCategoryBlog").on("click", function() {
+    $(".theme").hide();
+    $(".themeBlog").show();	
+  });
+  
+  $(".themeCategoryBusiness").on("click", function() {
+    $(".theme").hide();
+    $(".themeBusiness").show();	
+  });
+  
+  $(".themeCategoryEducation").on("click", function() {
+    $(".theme").hide();
+    $(".themeEducation").show();	
+  });
+  
+  $(".themeCategoryMagazine").on("click", function() {
+    $(".theme").hide();
+    $(".themeMagazine").show();	
+  });
+  
+  $(".themeCategoryPortfolio").on("click", function() {
+    $(".theme").hide();
+    $(".themePortfolio").show();	
+  });
+  
+  $(".themeCategoryProfile").on("click", function() {
+    $(".theme").hide();
+    $(".themeProfile").show();	
+  });
 
   // Sticky Sidebar
   $('.themeProductContent, .themeProductStats').theiaStickySidebar({

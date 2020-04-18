@@ -337,6 +337,34 @@ li {
 .themeSearch #filterText {
   max-width: 100%;
 }
+/* Theme Cateogies */
+.themeCategories {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.themeCategory {
+  position:relative;
+  color: #008aff;
+  cursor: pointer;
+}
+.themeCategory:after {
+  background: #008aff;
+  content: "";
+  bottom: 0;
+  height: 1.5px;
+  left: 0;
+  position: absolute;
+  width: 0;
+  -moz-transition: all .2s;
+  -o-transition: all .2s;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+.themeCategory:hover:after { 
+  width: 100%;
+}
+
 /* Theme Product Page */
 .breadCrumbs {
   display: flex;
