@@ -252,13 +252,8 @@ li {
 }
 /* Theme Store Page */
 .new {
-  position: absolute;
-  top: 20px;
-  right: 0;
-  z-index: 10;
   background: aquamarine;
   padding: 5px;
-  border-bottom-left-radius: 6px;
 }
 .themes {
   width: 100%;
