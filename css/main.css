@@ -252,8 +252,9 @@ li {
 }
 /* Theme Store Page */
 .new {
-  background: aquamarine;
+  background: chartreuse;
   padding: 5px;
+  border-radius: 6px;
 }
 .themes {
   width: 100%;
