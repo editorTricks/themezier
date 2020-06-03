@@ -251,11 +251,6 @@ li {
   padding: 80px 0;
 }
 /* Theme Store Page */
-.new {
-  background: chartreuse;
-  padding: 5px;
-  border-radius: 6px;
-}
 .themes {
   width: 100%;
   display: flex;
