@@ -14,6 +14,9 @@ jQuery(function($) {
         var $li = $(this);
         $li.addClass('animated pulse');
 	  }
+	  else {
+	    $li.removeClass('animated pulse'); 
+	  }
     });
   });
 	
