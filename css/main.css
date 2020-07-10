@@ -677,11 +677,11 @@ li {
   width: fit-content;
   margin: 20px auto;
 }
-.themePackage + a {
+.themePackageLearnMore {
   font-family: "Roboto";
   position: relative;
 }
-.themePackage + a:after {
+.themePackageLearnMore:after {
   background: #008aff;
   content: "";
   bottom: 0;
@@ -694,7 +694,7 @@ li {
   -webkit-transition: all .2s;
   transition: all .2s;
 }
-.themePackage + a:hover:after { 
+.themePackageLearnMore:hover:after { 
   width: 100%;
 }
 .themePackage .fa-shopping-cart {
