@@ -8,14 +8,10 @@ jQuery(function($) {
   }
 
   $(window).on('scroll', function() {
-    var delay = 0;
     $('.themePackageImage').each(function() {
       if (isScrolledIntoView($(this))) {
         var $li = $(this);
-        $li.addClass('animated pulse');
-	  }
-	  else {
-	    $li.removeClass('animated pulse'); 
+        $li.addClass('animated swing');
 	  }
     });
   });
