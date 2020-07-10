@@ -661,7 +661,7 @@ li {
   padding: 80px 20px;
 }
 .themePackage img {
-  max-height: 150px;
+  max-height: 500px;
 }
 .themePackageh2 {
   margin-bottom: 20px;
@@ -679,9 +679,23 @@ li {
 }
 .themePackage + a {
   font-family: "Roboto";
+  position: relative;
 }
-.themePackage + a:hover {
-  text-decoration: underline;
+.themePackage + a:after {
+  background: #008aff;
+  content: "";
+  bottom: 0;
+  height: 1.5px;
+  left: 0;
+  position: absolute;
+  width: 0;
+  -moz-transition: all .2s;
+  -o-transition: all .2s;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+.themePackage + a:hover:after { 
+  width: 100%;
 }
 .themePackage .fa-shopping-cart {
   margin-left: 5px;
