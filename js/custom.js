@@ -1,5 +1,22 @@
 jQuery(function($) {
 	
+  function isScrolledIntoView(elem) {
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+    var elemTop = $(elem).offset().top;
+    return ((elemTop <= docViewBottom) && (elemTop >= docViewTop));
+  }
+
+  $(window).on('scroll', function() {
+    var delay = 0;
+    $('.themePackageImage').each(function() {
+      if (isScrolledIntoView($(this))) {
+        var $li = $(this);
+        $li.addClass('animated pulse');
+	  }
+    });
+  });
+	
   // Theme Categories
   $(".themeCategoryAll").on("click", function() {
 	$(".themeDescription").hide();
