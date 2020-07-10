@@ -670,6 +670,9 @@ li {
   margin-bottom: 20px;
   line-height: 20px;
 }
+.themePackageImage {
+  display: block;
+}
 .themePackage .sellfy-buy-button-custom {
   padding: 15px;
   display: block;
