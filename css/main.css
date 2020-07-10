@@ -654,6 +654,10 @@ li {
   transition: all 300ms ease;
 }
 /* Theme Package */
+.wsite-themezier-weebly-theme-package .themeProductImage {
+  padding-right: 40px;
+  box-sizing: border-box;
+}
 .themePackage {
   text-align: center;
 }
