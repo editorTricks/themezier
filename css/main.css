@@ -675,7 +675,10 @@ li {
   display: block;
   border-radius: 25px;
   width: fit-content;
-  margin: 20px auto 0;
+  margin: 20px auto;
+}
+.themePackage + a:hover {
+  text-decoration: underline;
 }
 .themePackage .fa-shopping-cart {
   margin-left: 5px;
