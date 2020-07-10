@@ -473,6 +473,9 @@ li {
   font-family: "Montserrat";
   text-transform: uppercase;
 }
+strike {
+  color: #282d3a;
+}
 .themeProductPrice {
   margin-bottom: 10px;
   color: #008aff;
