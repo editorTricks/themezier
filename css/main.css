@@ -54,7 +54,7 @@ h2{
   font-size: 32px;
   font-weight: 900;
   margin-bottom: 10px;
-  line-height: 24px;
+  line-height: 32px;
 }
 h3 {
   font-size: 13px;
@@ -245,7 +245,8 @@ li {
 }
 /* Main */
 .main .container {
-  padding: 40px 0;
+  padding: 40px 20px;
+  box-sizing: border-box;
 }
 .no-header-page-layout .main .container {
   padding: 80px 0;
@@ -343,17 +344,11 @@ li {
   display: flex;
   justify-content: space-around;
   margin-bottom: 30px;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  height: 17px;
-  width: 1140px;
-  -webkit-overflow-scrolling: touch;
 }
 .themeCategory {
   position:relative;
   color: #008aff;
   cursor: pointer;
-  flex: 0 0 auto;
 }
 .themeCategory:after {
   background: #008aff;
@@ -681,7 +676,7 @@ strike {
 }
 .themePackageP {
   margin-bottom: 20px;
-  line-height: 20px;
+  line-height: 24px;
 }
 .themePackageImage {
   display: block;
@@ -1011,6 +1006,11 @@ strike {
   box-sizing: border-box;
   background: #f6f7f9;
 }
+@media screen and (max-width: 1140px) {
+  .themeCategories {
+    display: none;
+  }
+}
 /* Tablet */
 @media screen and (max-width: 992px) {
   /* Global Settings */
@@ -1184,7 +1184,7 @@ strike {
   }
   /* Banner */
   .banner .container {
-    padding: 40px 20px 0px;
+    padding: 40px 20px 40px;
   }
   .banner:after {
     height: 20px;
@@ -1196,8 +1196,15 @@ strike {
     margin-bottom: 20px;
     line-height: 21px;
   }
+  .learnMore {
+    margin-bottom: 0;
+  }
   /* Main */
   .main .container {
+    padding: 20px;
+  }
+  /* Theme Package */
+  .themePackage .container {
     padding: 20px;
   }
   /* Store Page */
