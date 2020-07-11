@@ -144,7 +144,7 @@ jQuery(function($) {
   });
   
   if($("#filterText").val() == '' ) {
-    $(".themeCategories").show();
+    $(".themeCategories").css("display", "flex");
   }
   
   // Widget Search
