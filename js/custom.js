@@ -136,6 +136,7 @@ jQuery(function($) {
     $("#filterText").val("");
 	$(".theme").removeClass("show animated fadeIn");
 	$(".theme").show();
+	$(".themeDescription").hide();
   });
   
   // Widget Search
