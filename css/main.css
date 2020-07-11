@@ -343,11 +343,14 @@ li {
   display: flex;
   justify-content: space-around;
   margin-bottom: 30px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
 }
 .themeCategory {
   position:relative;
   color: #008aff;
   cursor: pointer;
+  flex: 0 0 auto;
 }
 .themeCategory:after {
   background: #008aff;
