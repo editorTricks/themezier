@@ -125,20 +125,6 @@ jQuery(function($) {
 	$(".theme").addClass("show animated fadeIn");
   });
   
-  // Body Close  
-  $('body').click(function(evt){    
-    if(evt.target.id == "themeSearch")
-    return;
-    //For descendants of menu_content being clicked, remove this check if you do not want to put constraint on descendants.
-    if($(evt.target).closest('#menu_content').length)
-    return;   
-	//Do processing of click event here for every element except with id menu_content
-    $("#filterText").val("");
-	$(".theme").removeClass("show animated fadeIn");
-	$(".theme").show();
-	$(".themeDescription").hide();
-  });
-  
   // Widget Search
   $("#filterText").on("keyup", function() {
     var key = this.value;
