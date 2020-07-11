@@ -1216,10 +1216,17 @@ strike {
   }
 }
 @media screen and (max-width: 400px) {
+  h2 {
+    font-size: 24px;
+  }
+  .themePackageh2 {
+    margin-bottom: 10px;
+  }
   .themeContent {
     padding: 15px 20px;
     flex-wrap: wrap;
 	justify-content: center;
+	flex-direction: column;
   }
   .themeName {
     margin-bottom: 10px;
