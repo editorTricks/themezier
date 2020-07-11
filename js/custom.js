@@ -141,7 +141,6 @@ jQuery(function($) {
 	$(".theme").removeClass("show animated fadeIn");
 	$(".theme").show();
 	$(".themeDescription").hide();
-	$(".themeCategories").fadeIn(500); 
   });
   
   // Widget Search
