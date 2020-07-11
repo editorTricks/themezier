@@ -60,10 +60,12 @@ jQuery(function($) {
 	additionalMarginBottom: 20
   });
   
-  // Sticky Sidebar Bottom Content Animation  
+  // Sticky Sidebar Bottom Content Animation
+  if ($(".themeProductStats")[0]){
   var $header = $('.themeProductStats');
   
   $(window).scroll(function () { 
+  
     if ($header.offset().top - $(this).scrollTop() >= 100) {
       $(".themeProductStickBottom").removeClass('show');
     } 
@@ -71,6 +73,7 @@ jQuery(function($) {
       $(".themeProductStickBottom").addClass('show');
     }
   });
+  }
   
   // Scroll To Top Button
   $(window).scroll(function() {    
