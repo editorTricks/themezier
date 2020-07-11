@@ -134,6 +134,7 @@ jQuery(function($) {
     return;   
 	//Do processing of click event here for every element except with id menu_content
     $("#filterText").val("");
+	$(".theme").removeClass("show animated fadeIn");
 	$(".theme").show();
   });
   
