@@ -1215,3 +1215,12 @@ strike {
     height: 50vw;
   }
 }
+@media screen and (max-width: 400px) {
+  .themeContent {
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  .themeName {
+    margin-bottom: 10px;
+  }
+}
