@@ -347,6 +347,7 @@ li {
   overflow-x: auto;
   height: 17px;
   width: 1140px;
+  -webkit-overflow-scrolling: touch;
 }
 .themeCategory {
   position:relative;
