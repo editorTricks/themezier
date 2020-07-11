@@ -117,7 +117,7 @@ jQuery(function($) {
   
   // Theme Search
   $("#filterText").on("click", function(){
-    $(".themeCategories").fadeOut(500); 
+    $(".themeCategories").hide(); 
   });
   
   $("#filterText").on("keyup", function() {
