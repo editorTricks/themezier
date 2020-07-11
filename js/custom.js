@@ -141,8 +141,11 @@ jQuery(function($) {
 	$(".theme").removeClass("show");
 	$(".theme").show();
 	$(".themeDescription").hide();
-	$(".themeCategories").show();
   });
+  
+  if($("#filterText").val() == '' ) {
+    $(".themeCategories").show();
+  }
   
   // Widget Search
   $("#filterText").on("keyup", function() {
