@@ -1217,7 +1217,7 @@ strike {
 }
 @media screen and (max-width: 400px) {
   .themeContent {
-    padding: 20px;
+    padding: 15px 20px;
     flex-wrap: wrap;
 	justify-content: center;
   }
