@@ -133,7 +133,7 @@ jQuery(function($) {
     if($(evt.target).closest('#menu_content').length)
     return;   
 	//Do processing of click event here for every element except with id menu_content
-    $("#searchBox").val("");
+    $("#themeSearch").val("");
   });
   
   // Widget Search
