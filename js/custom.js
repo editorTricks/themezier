@@ -115,11 +115,7 @@ jQuery(function($) {
     $('.hamburger').toggleClass('rotate');
   });
   
-  // Theme Search
-  $("#filterText").on("click", function(){
-    $(".themeCategories").hide(); 
-  });
-  
+  // Theme Search  
   $("#filterText").on("keyup", function() {
    var key = this.value;
     $(".themeName").each(function() {
@@ -141,6 +137,11 @@ jQuery(function($) {
 	$(".theme").removeClass("show animated fadeIn");
 	$(".theme").show();
 	$(".themeDescription").hide();
+	$(".themeCategories").show(); 
+  });
+  
+  $("#filterText").on("click", function(){
+    $(".themeCategories").hide(); 
   });
   
   // Widget Search
