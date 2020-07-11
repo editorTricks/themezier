@@ -122,7 +122,7 @@ jQuery(function($) {
        var $this = $(this).parent().parent();
        $this.toggle($(this).text().toLowerCase().indexOf(key.toLowerCase()) >= 0);
     });
-	$(".theme").addClass("show animated fadeIn");
+	$(".theme").addClass("show");
   });
   
   // Body Close  
@@ -134,7 +134,7 @@ jQuery(function($) {
     return;   
 	//Do processing of click event here for every element except with id menu_content
     $("#filterText").val("");
-	$(".theme").removeClass("show animated fadeIn");
+	$(".theme").removeClass("show");
 	$(".theme").show();
 	$(".themeDescription").hide();
 	$(".themeCategories").show(); 
