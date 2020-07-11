@@ -115,11 +115,7 @@ jQuery(function($) {
     $('.hamburger').toggleClass('rotate');
   });
   
-  // Theme Search
-  $("#filterText").on("click", function(){
-    $(".themeCategories").hide(); 
-  });
-  
+  // Theme Search  
   $("#filterText").on("keyup", function() {
    var key = this.value;
     $(".themeName").each(function() {
@@ -142,10 +138,6 @@ jQuery(function($) {
 	$(".theme").show();
 	$(".themeDescription").hide();
   });
-  
-  if($("#filterText").val() == '' ) {
-    $(".themeCategories").css("display", "flex");
-  }
   
   // Widget Search
   $("#filterText").on("keyup", function() {
