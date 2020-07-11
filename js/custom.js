@@ -61,13 +61,13 @@ jQuery(function($) {
   });
   
   // Sticky Sidebar Bottom Content Animation  
-  var $header = $('.themeProductStats').offset().top;
+  var $header = $('.themeProductStats');
   
   $(window).scroll(function () { 
-    if ($header - $(this).scrollTop() >= 100) {
+    if ($header.offset().top - $(this).scrollTop() >= 100) {
       $(".themeProductStickBottom").removeClass('show');
     } 
-	else if ($header - $(this).scrollTop() < 100) {
+	else if ($header.offset().top - $(this).scrollTop() < 100) {
       $(".themeProductStickBottom").addClass('show');
     }
   });
