@@ -62,17 +62,18 @@ jQuery(function($) {
   
   // Sticky Sidebar Bottom Content Animation
   if ($(".themeProductStats")[0]){
-  var $header = $('.themeProductStats');
+	  
+    var $header = $('.themeProductStats');
   
-  $(window).scroll(function () { 
+    $(window).scroll(function () { 
   
-    if ($header.offset().top - $(this).scrollTop() >= 100) {
-      $(".themeProductStickBottom").removeClass('show');
-    } 
-	else if ($header.offset().top - $(this).scrollTop() < 100) {
-      $(".themeProductStickBottom").addClass('show');
-    }
-  });
+      if ($header.offset().top - $(this).scrollTop() >= 100) {
+        $(".themeProductStickBottom").removeClass('show');
+      } 
+	  else if ($header.offset().top - $(this).scrollTop() < 100) {
+        $(".themeProductStickBottom").addClass('show');
+      }
+    });
   }
   
   // Scroll To Top Button
@@ -122,6 +123,17 @@ jQuery(function($) {
        $this.toggle($(this).text().toLowerCase().indexOf(key.toLowerCase()) >= 0);
     });
 	$(".theme").addClass("show animated fadeIn");
+  });
+  
+  // Body Close  
+  $('body').click(function(evt){    
+    if(evt.target.id == "themeSearch")
+    return;
+    //For descendants of menu_content being clicked, remove this check if you do not want to put constraint on descendants.
+    if($(evt.target).closest('#menu_content').length)
+    return;   
+	//Do processing of click event here for every element except with id menu_content
+    $("#searchBox").val("");
   });
   
   // Widget Search
