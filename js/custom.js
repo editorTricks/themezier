@@ -116,6 +116,10 @@ jQuery(function($) {
   });
   
   // Theme Search
+  $("#filterText").on("click", function(){
+    $(".themeCategories").fadeOut(500); 
+  });
+  
   $("#filterText").on("keyup", function() {
    var key = this.value;
     $(".themeName").each(function() {
@@ -137,6 +141,7 @@ jQuery(function($) {
 	$(".theme").removeClass("show animated fadeIn");
 	$(".theme").show();
 	$(".themeDescription").hide();
+	$(".themeCategories").fadeIn(500); 
   });
   
   // Widget Search
