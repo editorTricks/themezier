@@ -407,6 +407,22 @@ li {
   -o-transition: all 8.78s ease;
   transition: all 8.78s ease;
 }
+.hazePro .themeImage img {
+  object-position: 50% 0%;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.hazePro:hover .themeImage img {
+  object-position: 50% 100%;
+  -webkit-transition: all 7.73s ease;
+  -moz-transition: all 7.73s ease;
+  -ms-transition: all 7.73s ease;
+  -o-transition: all 7.73s ease;
+  transition: all 7.73s ease;
+}
 /* Theme Description */
 .themeDescription {
   display: none;
