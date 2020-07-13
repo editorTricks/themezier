@@ -366,6 +366,21 @@ li {
 .themeCategory:hover:after { 
   width: 100%;
 }
+/* Theme Image Hover Slide */
+.solar .themeImage img {
+  object-position: 50% 0%;
+  -moz-transition: all .2s;
+  -o-transition: all .2s;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+.solar:hover .themeImage img {
+  object-position: 50% 100%;
+  -moz-transition: all .2s;
+  -o-transition: all .2s;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
 /* Theme Description */
 .themeDescription {
   display: none;
