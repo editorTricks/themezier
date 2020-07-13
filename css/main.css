@@ -439,6 +439,22 @@ li {
   -o-transition: all 3.84s ease;
   transition: all 3.84s ease;
 }
+.kiss .themeImage img {
+  object-position: 50% 0%;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.kiss:hover .themeImage img {
+  object-position: 50% 100%;
+  -webkit-transition: all 4.16s ease;
+  -moz-transition: all 4.16s ease;
+  -ms-transition: all 4.16s ease;
+  -o-transition: all 4.16s ease;
+  transition: all 4.16s ease;
+}
 /* Theme Description */
 .themeDescription {
   display: none;
