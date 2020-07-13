@@ -369,19 +369,19 @@ li {
 /* Theme Image Hover Slide */
 .solar .themeImage img {
   object-position: 50% 0%;
-  -webkit-transition: all 5s ease;
-  -moz-transition: all 5s ease;
-  -ms-transition: all 5s ease;
-  -o-transition: all 5s ease;
-  transition: all 5s ease;
+  -webkit-transition: all 10s ease;
+  -moz-transition: all 10s ease;
+  -ms-transition: all 10s ease;
+  -o-transition: all 10s ease;
+  transition: all 10s ease;
 }
 .solar:hover .themeImage img {
   object-position: 50% 100%;
-  -webkit-transition: all 5s ease;
-  -moz-transition: all 5s ease;
-  -ms-transition: all 5s ease;
-  -o-transition: all 5s ease;
-  transition: all 5s ease;
+  -webkit-transition: all 10s ease;
+  -moz-transition: all 10s ease;
+  -ms-transition: all 10s ease;
+  -o-transition: all 10s ease;
+  transition: all 10s ease;
 }
 /* Theme Description */
 .themeDescription {
