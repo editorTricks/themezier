@@ -393,19 +393,19 @@ li {
 }
 .iron .themeImage img {
   object-position: 50% 0%;
-  -webkit-transition: all 5s ease;
-  -moz-transition: all 5s ease;
-  -ms-transition: all 5s ease;
-  -o-transition: all 5s ease;
-  transition: all 5s ease;
+  -webkit-transition: all 8.78s ease;
+  -moz-transition: all 8.78s ease;
+  -ms-transition: all 8.78s ease;
+  -o-transition: all 8.78s ease;
+  transition: all 8.78s ease;
 }
 .iron:hover .themeImage img {
   object-position: 50% 100%;
-  -webkit-transition: all 5s ease;
-  -moz-transition: all 5s ease;
-  -ms-transition: all 5s ease;
-  -o-transition: all 5s ease;
-  transition: all 5s ease;
+  -webkit-transition: all 8.78s ease;
+  -moz-transition: all 8.78s ease;
+  -ms-transition: all 8.78s ease;
+  -o-transition: all 8.78s ease;
+  transition: all 8.78s ease;
 }
 /* Theme Description */
 .themeDescription {
