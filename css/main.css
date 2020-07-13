@@ -455,6 +455,22 @@ li {
   -o-transition: all 4.16s ease;
   transition: all 4.16s ease;
 }
+.entry .themeImage img {
+  object-position: 50% 0%;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.entry:hover .themeImage img {
+  object-position: 50% 100%;
+  -webkit-transition: all 2.74s ease;
+  -moz-transition: all 2.74s ease;
+  -ms-transition: all 2.74s ease;
+  -o-transition: all 2.74s ease;
+  transition: all 2.74s ease;
+}
 /* Theme Description */
 .themeDescription {
   display: none;
