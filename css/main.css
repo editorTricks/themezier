@@ -599,6 +599,30 @@ li {
   -o-transition: all 7.58s ease;
   transition: all 7.58s ease;
 }
+.skyscraper .themeImage {
+  background: url(../images/skyscraper_background.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.skyscraper .themeImage img {
+  object-position: 50% 0%;
+  padding: 0 40px;
+  box-sizing: border-box;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.skyscraper:hover .themeImage img {
+  object-position: 50% 100%;
+  -webkit-transition: all 7.44s ease;
+  -moz-transition: all 7.44s ease;
+  -ms-transition: all 7.44s ease;
+  -o-transition: all 7.44s ease;
+  transition: all 7.44s ease;
+}
 /* Theme Description */
 .themeDescription {
   display: none;
