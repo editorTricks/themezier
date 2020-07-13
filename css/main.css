@@ -545,11 +545,11 @@ li {
 }
 .imbue:hover .themeImage img {
   object-position: 50% 100%;
-  -webkit-transition: all 4.95s ease;
-  -moz-transition: all 4.95s ease;
-  -ms-transition: all 4.95s ease;
-  -o-transition: all 4.95s ease;
-  transition: all 4.95s ease;
+  -webkit-transition: all 4.90s ease;
+  -moz-transition: all 4.90s ease;
+  -ms-transition: all 4.90s ease;
+  -o-transition: all 4.90s ease;
+  transition: all 4.90s ease;
 }
 /* Theme Description */
 .themeDescription {
