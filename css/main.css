@@ -375,7 +375,7 @@ li {
 }
 .solar .themeImage img {
   object-position: 50% 0%;
-  padding: 0 80px;
+  padding: 0 40px;
   box-sizing: border-box;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
@@ -566,6 +566,22 @@ li {
   -ms-transition: all 5.42s ease;
   -o-transition: all 5.42s ease;
   transition: all 5.42s ease;
+}
+.blogo .themeImage img {
+  object-position: 50% 0%;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.blogo:hover .themeImage img {
+  object-position: 50% 100%;
+  -webkit-transition: all 3.84s ease;
+  -moz-transition: all 3.84s ease;
+  -ms-transition: all 3.84s ease;
+  -o-transition: all 3.84s ease;
+  transition: all 3.84s ease;
 }
 /* Theme Description */
 .themeDescription {
