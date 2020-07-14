@@ -639,7 +639,7 @@ li {
   -o-transition: all 7.13s ease;
   transition: all 7.13s ease;
 }
-/* Most Popular */
+/* Theme Labels */
 .mostPopular {
   position: absolute;
   top: 0;
@@ -647,6 +647,19 @@ li {
   z-index: 1;
   background: #aaff00;
   color: #000;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 4px;
+  border-bottom-left-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+.comingSoon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  background: #DB0608;
+  color: #fff;
   font-weight: 900;
   text-transform: uppercase;
   padding: 4px;
