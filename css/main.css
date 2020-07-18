@@ -780,6 +780,17 @@ li {
 .themeProductStats {
   width: 34%;
 }
+.themeCaption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  background: #23272D;
+  color: #000;
+  font-weight: 900;
+  padding: 10px;
+  border-bottom-left-radius: 6px;
+}
 .themeProductName {
   font-size: 32px;
   font-weight: 900;
