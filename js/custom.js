@@ -1,5 +1,9 @@
 jQuery(function($) {
 	
+  // Load Partials
+  $(".liveChat").load("/partials/tawk.html");
+	
+  // Theme Package Scroll Animation
   function isScrolledIntoView(elem) {
     var docViewTop = $(window).scrollTop();
     var docViewBottom = docViewTop + $(window).height();
