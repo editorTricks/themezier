@@ -655,7 +655,7 @@ li {
   -o-transition: all 7.30s ease;
   transition: all 7.30s ease;
 }
-.zine.themeImage img {
+.zine .themeImage img {
   object-position: 50% 0%;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
