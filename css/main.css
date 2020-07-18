@@ -248,9 +248,6 @@ li {
   padding: 40px 20px;
   box-sizing: border-box;
 }
-.no-header-page-layout .main .container {
-  padding: 80px 0;
-}
 /* Theme Store Page */
 .themes {
   width: 100%;
