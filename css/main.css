@@ -1593,10 +1593,9 @@ strike {
     margin-bottom: 20px;
   }
   .themeCaption {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
+    position: relative;
+    top: initial;
+    right: initial;
     text-align: center;
     padding: 0px 10px 10px;
     border-bottom-left-radius: 0;
