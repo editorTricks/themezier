@@ -1592,6 +1592,16 @@ strike {
     padding: 40px 0;
     margin-bottom: 20px;
   }
+  .themeCaption {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 0px 10px 10px;
+    border-bottom-left-radius: 0;
+    font-size: 14px;
+  }
   .themeProductContent {
     padding: 0px;
   }
