@@ -785,8 +785,8 @@ li {
   top: 0;
   right: 0;
   z-index: 1;
-  background: #23272D;
-  color: #000;
+  background: #fff;
+  color: #23272D;
   font-weight: 900;
   padding: 10px;
   border-bottom-left-radius: 6px;
