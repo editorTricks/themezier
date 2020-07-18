@@ -42,9 +42,7 @@
     -ms-transform: translate3d(0, 0, 0); }
   .owl-carousel .owl-item {
     padding: 5px 5px 0;
-    box-sizing: border-box;
-    height: 368.47px;
-    object-fit: cover; }
+    box-sizing: border-box; }
   .owl-carousel .owl-item {
     position: relative;
     min-height: 1px;
@@ -54,7 +52,9 @@
     -webkit-touch-callout: none; }
   .owl-carousel .owl-item img {
     display: block;
-    width: 100%; }
+    width: 100%;
+    height: 368.47px;
+    object-fit: cover; }
   .owl-carousel .owl-nav.disabled,
   .owl-carousel .owl-dots.disabled {
     display: none; }
