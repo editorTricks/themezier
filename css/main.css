@@ -763,6 +763,7 @@ li {
 }
 .themeProductSection {
   display: flex;
+  justify-content: space-between;
 }
 .themeProductSectionOne {
   align-items: center;
