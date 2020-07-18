@@ -1,9 +1,5 @@
 jQuery(function($) {
 	
-  // Theme Image Slider Height
-  var imageHeight = $(".laptop img").height();
-  alert(imageHeight);
-	
   // Load Partials
   $(".liveChat").load("/partials/tawk.html");
 	
