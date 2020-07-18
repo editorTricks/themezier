@@ -1598,6 +1598,9 @@ strike {
   .theme {
     width: 100%;
   }
+  .themes .theme:hover .themeImage img {
+    object-position: initial;
+  }
   .theme img {
     height: 50vw;
   }
