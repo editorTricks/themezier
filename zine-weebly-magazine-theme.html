@@ -30,6 +30,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:900&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="owl/owl-carousel-min.css">
+    <link rel="stylesheet" href="owl/owl-theme-default-min.css">
 	
 	
 	<script type="text/javascript">
@@ -79,7 +81,14 @@
 			<div class="currentPage">Zine Weebly Magazine Theme</div>
 		  </div>
 	      <div class="themeProductSection themeProductSectionOne">
-		    <div class="themeProductImage"><img src="images/zine_laptop.png" alt="Zine Weebly Magazine Theme" /></div>
+		    <div class="themeProductImage">
+			  <div class="owl-carousel">
+			    <div><img src="images/zine_laptop.png" alt="Zine Weebly Magazine Theme" /></div></div>
+				<div> Your Content </div>
+				<div> Your Content </div>
+				<div> Your Content </div>
+				<div> Your Content </div>
+			  </div>
 			<div class="themeProductDescription">
 			  <h2 class="themeProductName">Zine</h2>
 			  <h1 class="themeProductType">​​The ultimate Weebly magazine theme</h1>
@@ -233,9 +242,20 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>	
 	<script type="text/javascript" src="js/custom.js"></script>
+	<script src="owl/owl-carousel-min.js"></script>
 	<script type="text/javascript" src="https://sellfy.com/js/api_buttons.js"></script>
 	<script type="text/javascript" src="https://raw.githack.com/WeCodePixels/theia-sticky-sidebar/master/dist/ResizeSensor.js"></script>
 	<script type="text/javascript" src="https://raw.githack.com/WeCodePixels/theia-sticky-sidebar/master/dist/theia-sticky-sidebar.js"></script>
+	
+	<script>
+	jQuery(function($) {
+	  $('.owl-carousel').owlCarousel({
+        items:1,
+        autoplay:true,
+        loop:true
+	  });
+    });
+	</script>
 	
 	<!-- Load Facebook SDK for JavaScript -->
     <div id="fb-root"></div>
