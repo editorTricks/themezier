@@ -1541,12 +1541,19 @@ strike {
   .themeProductStats  {
     width: 100%;
   }
+  .themeProductContent {
+    margin-bottom: 40px;
+  }
   .themeProductDescription {
     text-align: center;
   }
   .themeProductReviewStars {
     display: flex;
     justify-content: center;
+  }
+  /* Widgets */
+  .widget {
+    width: 31.3333333%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1603,6 +1610,15 @@ strike {
   }
   .themeProductContent {
     padding: 0px;
+  }
+  /* Widget */
+  .widget {
+    width: 47.99999%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .widget {
+    width: 100%;
   }
 }
 @media screen and (max-width: 400px) {
