@@ -655,6 +655,22 @@ li {
   -o-transition: all 7.30s ease;
   transition: all 7.30s ease;
 }
+.zine.themeImage img {
+  object-position: 50% 0%;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.zine:hover .themeImage img {
+  object-position: 50% 100%;
+  -webkit-transition: all 5.99s ease;
+  -moz-transition: all 5.99s ease;
+  -ms-transition: all 5.99s ease;
+  -o-transition: all 5.99s ease;
+  transition: all 5.99s ease;
+}
 /* Theme Labels */
 .mostPopular {
   position: absolute;
