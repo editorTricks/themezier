@@ -1427,7 +1427,7 @@ strike {
 	display: none;
   }
   .navCart {
-    width: initial;
+    width: 105px;
     position: fixed;
     top: 0;
     right: 20px;
