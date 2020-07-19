@@ -1589,7 +1589,7 @@ strike {
     width: 100%;
   }
   .themes .theme:hover .themeImage img {
-    object-position: initial;
+    object-position: 50% 0%;
   }
   .theme img {
     height: 50vw;
