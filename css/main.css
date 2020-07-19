@@ -1424,16 +1424,6 @@ strike {
   }
   .mobileSupport {
     color: #fff;
-	display: none;
-  }
-  .navCart {
-    width: 105px;
-    position: fixed;
-    top: 0;
-    right: 20px;
-    display: flex;
-    align-items: center;
-    height: 56px;
   }
   /* Navigation */
   .mobileNavigation {
