@@ -1,6 +1,6 @@
 jQuery(function($) {
 	
-  var navCart = $(".navCart").clone();
+  var navCart = $(".navCart").html();
   $(".mobileSupport").append(navCart);
 	
   // Load Partials
