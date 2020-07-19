@@ -2,6 +2,7 @@ jQuery(function($) {
 	
   // Load Partials
   $(".liveChat").load("/partials/tawk.html");
+  $(".owlActivation").load("/partials/owlActivation.html");
 	
   // Theme Package Scroll Animation
   function isScrolledIntoView(elem) {
