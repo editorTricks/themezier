@@ -1,5 +1,8 @@
 jQuery(function($) {
 	
+  var navCart = $(".navCart").clone();
+  $(".mobileSupport").append(navCart);
+	
   // Load Partials
   $(".liveChat").load("/partials/tawk.html");
 	
