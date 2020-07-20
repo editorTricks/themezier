@@ -1331,7 +1331,7 @@ strike {
   right: 0;
   bottom: 0;
   z-index: 30;
-  background: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.97);
   display: none;
 }
 .preloader.show {
@@ -1377,6 +1377,13 @@ strike {
   100% {
     transform: rotate(360deg);
   }
+}
+.preloaderMessage {
+  font-family: "Roboto";
+}
+.preloader img {
+  max-height: 17px;
+  margin-top: 20px;
 }
 .form-elements {
   display: flex;
@@ -1429,6 +1436,9 @@ strike {
   padding: 40px;
   box-sizing: border-box;
   background: #f6f7f9;
+}
+.thankyou_message .content {
+  margin-bottom: 0;
 }
 @media screen and (max-width: 1140px) {
   .themeCategories {

@@ -1,16 +1,21 @@
 jQuery(function($) {
 	
-  // Support Page
-  $(".button-success").on("click", function() {
-    $('.form-elements input, .form-elements textarea').each(function(){
-      if ($('.form-elements input[value=""]').length == 0) {
-        $(".button-success").click(false);
+  $(".button-success").click(function() {
+    var empty = $('.valueCheck').filter(function() {
+      return this.value === "";
+    });
+    if(empty.length) {
+      alert("Not all input boxes have been filled.");
+    }
+	else {
+	  $(".preloader").addClass("show").fadeIn();
+	  function thankYouVisiblity() {
+        if($('.thankyou_message').is(":visible")) {
+          $(".preloader").removeClass("show");
+        }
       }
-	  else {
-	    $(".button-success").click(true);
-		$(".preloader").addClass("show animated fadeIn");
-	  }
-	});
+      window.setInterval(thankYouVisiblity, 100);
+	}
   });
 	
   // Load Partials
