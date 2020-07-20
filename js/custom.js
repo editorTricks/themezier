@@ -2,9 +2,14 @@ jQuery(function($) {
 	
   // Support Page
   $(".button-success").on("click", function() {
-    if ($('.form-elements input[value=""]').length == 0) {
-     alert('some fields are empty!');
-    }
+    $('.form-elements input, .form-elements textarea').each(function(){
+      if ($('.form-elements input[value=""]').length > 0) {
+        $(".button-success").click(false);
+      }
+	  else {
+	    $(".button-success").click(true);
+	  }
+	});
   });
 	
   // Load Partials
