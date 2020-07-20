@@ -1392,12 +1392,23 @@ strike {
   display: flex;
   flex-direction: column;
 }
-.form-elements> *:not(:last-child):not(h2):not(p) {
+.form-elements ::placeholder {
+  color: #999;
+}
+.pure-form .form-elements input,
+.pure-form .form-elements textarea {
+   border: 1px solid transparent;
+}
+.form-elements input:focus,
+.form-elements textarea:focus {
+  border: 1px solid #008aff;
+}
+.form-elements > *:not(:last-child):not(h2):not(p) {
   margin-bottom: 20px;
 }
 .pure-form input,
 .pure-form textarea {
-  padding: 20px;
+  padding: 15px;
   box-sizing: border-box;
   border: none;
   font-family: "Roboto";
@@ -1416,20 +1427,20 @@ strike {
   border-radius: 25px;
   background: #008aff;
   color: #fff;
-  -webkit-transition: all 300ms ease;
-  -moz-transition: all 300ms ease;
-  -ms-transition: all 300ms ease;
-  -o-transition: all 300ms ease;
-  transition: all 300ms ease;
+  -webkit-transition: all 100ms ease;
+  -moz-transition: all 100ms ease;
+  -ms-transition: all 100ms ease;
+  -o-transition: all 100ms ease;
+  transition: all 100ms ease;
 }
 .pure-form button:hover {
   background: transparent;
   color: #008aff;
-  -webkit-transition: all 300ms ease;
-  -moz-transition: all 300ms ease;
-  -ms-transition: all 300ms ease;
-  -o-transition: all 300ms ease;
-  transition: all 300ms ease;
+  -webkit-transition: all 100ms ease;
+  -moz-transition: all 100ms ease;
+  -ms-transition: all 100ms ease;
+  -o-transition: all 100ms ease;
+  transition: all 100ms ease;
 }
 .thankyou_message {
   display: none;

@@ -5,7 +5,7 @@ jQuery(function($) {
       return this.value === "";
     });
     if(empty.length) {
-      alert("Not all input boxes have been filled.");
+      alert("Not all input boxes have been filled out.");
     }
 	else {
 	  $(".preloader").addClass("show").fadeIn();
