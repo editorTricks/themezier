@@ -1334,6 +1334,9 @@ strike {
   background: rgba(255,255,255,0.9);
   display: none;
 }
+.preloader.show {
+  display: flex;
+}
 .preloader .container {
   margin: auto;
   display: flex;

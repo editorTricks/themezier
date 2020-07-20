@@ -3,11 +3,12 @@ jQuery(function($) {
   // Support Page
   $(".button-success").on("click", function() {
     $('.form-elements input, .form-elements textarea').each(function(){
-      if ($('.form-elements input[value=""]').length > 0) {
+      if ($('.form-elements input[value=""]').length == 0) {
         $(".button-success").click(false);
       }
 	  else {
 	    $(".button-success").click(true);
+		$(".preloader").addClass("show animated fadeIn");
 	  }
 	});
   });
