@@ -1,5 +1,12 @@
 jQuery(function($) {
 	
+  // Support Page
+  $(".button-success").on("click", function() {
+    if ($('.form-elements input[value=""]').length == 0) {
+     alert('some fields are empty!');
+    }
+  });
+	
   // Load Partials
   $(".liveChat").load("/partials/tawk.html");
   $(".owlActivation").load("/partials/owlActivation.html");
