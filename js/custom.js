@@ -12,6 +12,7 @@ jQuery(function($) {
 	  function thankYouVisiblity() {
         if($('.thankyou_message').is(":visible")) {
           $(".preloader").removeClass("show");
+		  $(".thankyou_message img").addClass("animated heartBeat")
         }
       }
       window.setInterval(thankYouVisiblity, 100);
