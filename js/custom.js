@@ -1,5 +1,6 @@
 jQuery(function($) {
 	
+  // Support Page Submit Animation
   $(".button-success").click(function() {
     var empty = $('.valueCheck').filter(function() {
       return this.value === "";
@@ -22,6 +23,7 @@ jQuery(function($) {
   // Load Partials
   $(".liveChat").load("/partials/tawk.html");
   $(".owlActivation").load("/partials/owlActivation.html");
+  $(".socialMediaIcons").load("/partials/socialMediaIcons.html");
 	
   // Theme Package Scroll Animation
   function isScrolledIntoView(elem) {
