@@ -1194,6 +1194,12 @@ strike {
 .copyright {
   font-size: 13px;
 }
+/* Social Media Icons */
+.socialMediaIcons a {
+  margin-bottom: 10px;
+  font-size: 50px;
+  display: block;
+}
 /* Scroll To Top Button */
 .scroll {
   display:none!important;
