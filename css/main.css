@@ -1195,10 +1195,15 @@ strike {
   font-size: 13px;
 }
 /* Social Media Icons */
-.socialMediaIcons a {
+.socialMediaIcons {
+  display: flex;
+  justify-content: center;
   margin-bottom: 10px;
-  font-size: 50px;
+}
+.socialMediaIcons a {
+  font-size: 22px;
   display: block;
+  padding: 0 3px;
 }
 /* Scroll To Top Button */
 .scroll {
