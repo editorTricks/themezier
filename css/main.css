@@ -685,32 +685,6 @@ li {
   border-bottom-left-radius: 6px;
   box-shadow: 0 0 5px rgba(0,0,0,0.7);
 }
-.comingSoon {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 1;
-  background: #DB0608;
-  color: #fff;
-  font-weight: 900;
-  text-transform: uppercase;
-  padding: 4px;
-  border-bottom-left-radius: 6px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.7);
-}
-.inDevelopment {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 1;
-  background: #E7C764;
-  color: #000;
-  font-weight: 900;
-  text-transform: uppercase;
-  padding: 4px;
-  border-bottom-left-radius: 6px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.7);
-}
 /* Theme Description */
 .themeDescription {
   display: none;
