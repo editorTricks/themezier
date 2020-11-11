@@ -829,6 +829,11 @@ strike {
 .themeProductReviewStars {
   margin-bottom: 10px;
   height: 17px;
+  display: none;
+}
+.themeProductReviews,
+.reviewsHeader {
+  display: none;
 }
 .yotpo-stars {
   margin-right: 10px!important;
