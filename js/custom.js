@@ -46,6 +46,7 @@ jQuery(function($) {
   });
 	
   // Load Partials
+  $(".header").load("/partials/header.html");
   $(".liveChat").load("/partials/tawk.html");
   $(".owlActivation").load("/partials/owlActivation.html");
   $(".socialMediaIcons").load("/partials/socialMediaIcons.html");
