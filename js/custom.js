@@ -1,5 +1,30 @@
 jQuery(function($) {
 	
+  // Feature Description
+  var textArray = [
+  'Random Post Generator',
+  'Numbered Blog Pagination',
+  'Trending Content',
+  'Blog Post Search',
+  'Most Popular Blog Posts',
+  'News Tickers',
+  'Blog Post Tags',
+  'Bread Crumbs',
+  'Owl Carousel Slider',
+  'Recommended Content',
+  'Sticky Sidebar',
+  'Free Footer',
+  'H1 Tags',
+  ],
+    
+  i = 0;
+
+  setInterval(function(){
+    i = i == textArray.length ? 0 : i;   
+    $('.featureDescription').text(textArray[i]).hide().css("display", "inline-block");
+    i++;
+  },750);
+	
   // Support Page Submit Animation
   $(".button-success").click(function() {
     var empty = $('.valueCheck').filter(function() {

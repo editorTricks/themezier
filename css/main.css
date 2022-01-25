@@ -36,15 +36,15 @@ input[type=number]::-webkit-outer-spin-button {
 /* Global Settings */
 body {
   font-size: 16px;
-  line-height: 16px;
+  line-height: 22px;
   color: #282d3a;
   background: #fff;
-  font-family: "Montserrat";
+  font-family: "DM Sans";
   width: 100%;
 }
 h1 {
   font-size: 44px;
-  line-height: 44px;
+  line-height: 54px;
   margin-bottom: 10px;
 }
 h1.faq {
@@ -61,7 +61,7 @@ h3 {
   letter-spacing: 1px;
   line-height: 13px;
   font-weight: 700;
-  font-family: "Montserrat";
+  font-family: "DM Sans";
   text-transform: uppercase;
 }
 h3.faq {
@@ -72,7 +72,7 @@ h3.faqQuestionMargin {
 }
 p,
 ul li {
-  font-family: "Roboto";
+  font-family: "DM Sans";
 }
 p.content,
 ul li {
@@ -99,7 +99,7 @@ li {
   list-style: dots;
 }
 .container {
-  max-width: 1140px;
+  max-width: 100%;
   width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
@@ -113,8 +113,8 @@ li {
 }
 /* Header */
 .header {
-  background: #23272D;
-  color: #ffffff;
+  background: #fff;
+  color: #23272D;
   position: fixed;
   width: 100%;
   left: 0;
@@ -125,13 +125,16 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0;
-  max-width: 900px;
+  padding: 22px 20px;
 }
 .logo a {
-  color: #fff;
+  color: #010001;
   font-family: "Montserrat";
   font-weight: bold;
+}
+.headerRight {
+  display: flex;
+  align-items: center;
 }
 .blue {
   color: #008aff;
@@ -143,12 +146,11 @@ li {
   font-size: 13px;
   letter-spacing: 1px;
   line-height: 13px;
-  font-weight: 500;
-  font-family: "Montserrat";
-  text-transform: uppercase;
+  font-family: "DM Sans";
+  padding: 0 15px;
 }
 .desktopNav a {
-  color: #fff;
+  color: #282d3a;
   -webkit-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
   -ms-transition: all 300ms ease;
@@ -169,7 +171,7 @@ li {
 }
 /* Banner */
 .themeBanner {
-  background: url(../images/solar_background_grey.jpeg);
+  background: #fff;
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -207,11 +209,23 @@ li {
   text-decoration: underline;
 }
 .banner .container {
-  padding: 60px 20px 20px;
+  padding: 60px 20px 0px;
   position: relative;
+  box-sizing: border-box;
+  max-width: 90%;
+  width: 100%;
 }
 .bannerDescription {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+}
+.featureDescription {
+  font-weight: bold;
+  font-size: 32px;
+  background: #010010;
+  padding: 10px;
+  display: inline-block;
+  color: #fff;
+  display: none;
 }
 .secured {
   text-align: center;
@@ -250,6 +264,38 @@ li {
 }
 .no-header-page-layout .main .container {
   padding: 80px 20px 40px;
+}
+.mainSectionSplit {
+  display: flex;
+  padding: 80px 40px 40px;
+  box-sizing: border-box;
+  align-items: center;
+}
+.mainSectionSplit > div {
+  width: 48%;
+}
+.mainTitle {
+  font-size: 54px;
+  line-height: 64px;
+  font-weight: bold;
+}
+.mainParagraph {
+  font-size: 26px;
+  line-height: 36px;
+}
+.mainLeftOne {
+  text-align: right;
+}
+.caption {
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+}
+.mainSectionTwo {
+  text-align: center;
+  background: #000;
+  color: #fff;
+  padding: 100px 40px 100px;
 }
 /* Theme Store Page */
 .themes {
@@ -1169,6 +1215,7 @@ strike {
 }
 .footerLogo {
   font-weight: 600;
+  font-family: "Montserrat";
 }
 .copyright {
   font-size: 13px;
